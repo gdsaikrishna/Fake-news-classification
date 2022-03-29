@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <hr />
+    <form method="POST">
+    <input name="text">
+    <input type="submit">
+</form>
+{% for name in filenames %}
+<img src="/static/{{ name }}" alt="">
+{% endfor %}
+</html>
